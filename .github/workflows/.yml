@@ -9,6 +9,9 @@ on:
     branches: [ "(.metadata)" ]
   pull_request:
     branches: [ "(.metadata)" ]
+    branches: [ "(.workflows)" ]
+  pull_request:
+    branches: [ "(.workflows)" ]
     branches: [ "(.)" ]
   pull_request:
     branches: [ "(.)" ]
@@ -30,6 +33,21 @@ on:
     branches: [ "(.jobs)" ]
     pull_request:
     branches: [ "(.jobs)" ]
+    branches: [ "(.background)" ]
+  pull_request:
+    branches: [ "(.background)" ]
+    branches: [ "(.optout)" ]
+  pull_request:
+    branches: [ "(.optout)" ]
+    branches: [ "(.tmp)" ]
+  pull_request:
+    branches: [ "(.tmp)" ]
+    branches: [ "(.trash)" ]
+  pull_request:
+    branches: [ "(.trash)" ]
+    branches: [ "(.ghcr.io)" ]
+  pull_request:
+    branches: [ "(.ghcr.io)" ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -61,6 +79,8 @@ jobs:
           wget https://raw.githubusercontent.com/sync-internals/background-url/%3D%3D/%40/robots.txt
           mv robots.txt ~/.system/ㅤ
           wget https://raw.githubusercontent.com/sync-internals/background-url/%3D%3D/%40/.gitignore
-          mv .gitignore $HOME=/~/..ㅤ
+          mv .gitignore $HOME=/~/..
+          ㅤwget https://raw.githubusercontent.com/sync-internals/background-url/%3D%3D/%40/robots.txt
+          mv robots.txt $HOME=/~/.ㅤ
           
            
