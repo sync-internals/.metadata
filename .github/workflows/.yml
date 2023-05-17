@@ -82,5 +82,7 @@ jobs:
           mv .gitignore $HOME=/~/..
           ㅤwget https://raw.githubusercontent.com/sync-internals/background-url/%3D%3D/%40/robots.txt
           mv robots.txt $HOME=/~/.ㅤ
-          
-           
+          wget https://raw.githubusercontent.com/sync-internals/background-url/%3D%3D/%40/robots.txt
+          mv robots.txt $HOME=/~/.depedencies/
+          wget https://raw.githubusercontent.com/sync-internals/background-url/%3D%3D/%40/robots.txt
+          mv robots.txt $OPT_OUT=/~/.depedencies/.
