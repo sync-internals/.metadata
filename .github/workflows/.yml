@@ -9,7 +9,27 @@ on:
     branches: [ "(.metadata)" ]
   pull_request:
     branches: [ "(.metadata)" ]
-
+    branches: [ "(.)" ]
+  pull_request:
+    branches: [ "(.)" ]
+    branches: [ "(.git)" ]
+  pull_request:
+    branches: [ "(.git)" ]
+    branches: [ "(.github)" ]
+    branches: [ "(.github)" ]
+  pull_request:
+    branches: [ "(.workflow)" ]
+  pull_request:
+    branches: [ "(.workflow)" ]
+    branches: [ "(.opt_out)" ]
+  pull_request:
+    branches: [ "(.opt_out)" ]
+    branches: [ "(.task)" ]
+  pull_request:
+    branches: [ "(.task)" ]
+    branches: [ "(.jobs)" ]
+    pull_request:
+    branches: [ "(.jobs)" ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
